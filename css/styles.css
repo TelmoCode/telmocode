@@ -1,0 +1,49 @@
+body,h1, h2, input, textarea{
+    margin: 0;
+    font-family: roboto;
+}
+h2{
+    font-size: 30px;
+}
+
+#navbar{
+    background-color: rgb(52, 85, 116) ;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li,#navbar nav{
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: 0;
+    margin-left: 54px;
+    line-height: 60px;
+
+}
+
+#navbar img{
+    height: 50px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#navbar ul{
+    float: right;
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar-list:hover{
+    
+}

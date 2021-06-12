@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Document</title>
 </head>
 <body>
   <!-- inicio navbar-->
-  <header>
+  <header id="navbar">
     <img src="./img/shuriken.png" alt="TelmoCode">
     <h2>Telmo Code</h2>
-    <nav>
+    <nav id="navbar-list">
       <ul>
         <li><a href="http://">Home</a></li>
         <li><a href="http://">Projetos</a></li>
         <li><a href="http://">Contatos</a></li>
       </ul>
-      
-
     </nav>
   </header>
-  <!-- fim navbar-->
+ 
   <main>
    <!--banner inicio-->
    <div id="banner-info">
@@ -31,13 +32,13 @@
       <h2>"Apenas um batedor de teclas"</h2>
     </div>
    </div>
-   <!--banner fim-->
+  
    <!--about inicio-->
    <section>
      <h2>Sobre mim</h2>
      <p></p>
    </section>
-   <!--about fim-->
+  
   </main>
   <!--skills inicio-->
   <section>
@@ -46,7 +47,7 @@
       <div class="container-skills">
         <h3>Desenvolvimento</h3>
         <p class="subtitulo">linguagem que utilizo</p>
-        <p>HTML, CSS, JAVASCRITP, PHP</p>
+        <p>HTML, CSS, JAVASCRIPT, PHP</p>
         <p class="subtitulo">projetos que desenvolvo</p>
         <p>Sites, e-commerce, sistamas web, apis e app mobile</p>
       </div>
@@ -54,7 +55,7 @@
         <img src="./img/weapon2.png" alt="skills">
         <h3>Desenvolvimento</h3>
         <p class="subtitulo">linguagem que utilizo</p>
-        <p>HTML, CSS, JAVASCRITP, PHP</p>
+        <p>HTML, CSS, JAVASCRIPT, PHP</p>
         <p class="subtitulo">projetos que desenvolvo</p>
         <p>Sites, e-commerce, sistamas web, apis e app mobile</p>
       </div>
@@ -62,17 +63,39 @@
         <img src="./img/weapon3.png" alt="skills">
         <h3>Desenvolvimento</h3>
         <p class="subtitulo">linguagem que utilizo</p>
-        <p>HTML, CSS, JAVASCRITP, PHP</p>
+        <p>HTML, CSS, JAVASCRIPT, PHP</p>
         <p class="subtitulo">projetos que desenvolvo</p>
         <p>Sites, e-commerce, sistamas web, apis e app mobile</p>
       </div>
     </div>
   </section>
-  <!--skills fim-->
+  
   <!--jobs inicio-->
     <section id="jobs-sections">
-    
+      <h2>Veja meus trabalhos recentes</h2>
+      <div class="job-container">
+        <div class="job box"></div>
+        <div class="job box"></div>
+        <div class="job box"></div>
+      </div> <div class="job-container">
+        <div class="job box"></div>
+        <div class="job box"></div>
+        <div class="job box"></div>
+      </div>
     </section>
-  <!--jobs fim-->
+    <!--inicio footer-->
+    <footer>
+      <h2>Pode entrar em contato</h2>
+      <p>Caso queira me contratar</p>
+      <img src="img/ninja.jpg" alt="Telmo Code">
+      <form action="" method="">
+        <input type="text" name="nome" placeholder="Digite seu nome" id="iptNome">
+        <input type="email" name="email" placeholder="Digite seu Email" id="iptMail">
+        <textarea name="msg" placeholder="Fala que eu te escuto" id="txtArea" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+
+    </footer>
+  
 </body>
 </html>
